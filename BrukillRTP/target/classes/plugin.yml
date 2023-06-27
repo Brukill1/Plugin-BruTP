@@ -1,0 +1,15 @@
+name: BruTP
+version: '1.0'
+main: org.brukill.brukillrtp.BruTP
+api-version: 1.16
+authors: [Brukill]
+description: RTP
+website: Discord Brukill#1314 and @brukill
+
+commands:
+  rtp:
+    description: Random Teleport
+    usage: /rtp
+    permission: brudp.rtp
+    permission-message: You do not have permission to use this command.
+    executor: org.brukill.brukillrtp.BruTP
